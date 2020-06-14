@@ -1,6 +1,7 @@
 # pwsh-lunches
 
-Labs and other reading stuff from Learn Windows PowerShell in a Month of Lunches, Third Edition
+Labs and other reading stuff from [Learn Windows PowerShell in a Month of Lunches, Third Edition](https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition). Both this
+and [sequel](https://www.manning.com/books/learn-powershell-toolmaking-in-a-month-of-lunches?query=powershell%20tool) are highly recommended!
 
 ## Reasoning
 
