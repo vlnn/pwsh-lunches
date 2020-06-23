@@ -28,7 +28,7 @@
 
     `help Get-*Firew*`
 
-    ```
+    ```powershell
     Name                              Category  Module                    Synopsis
     ----                              --------  ------                    --------
     Get-NetFirewallAddressFilter      Function  NetSecurity               Retrieves address filter objects from the target computer.
