@@ -1,6 +1,6 @@
 # Lab 5 - working with providers
 
-1. In the Registry locate the DontPrettyPath property under HKEY_CURRENT_USER\software\microsoft\Windows\CurrentVersion\explorer\Advanced.
+1. In the Registry locate the DontPrettyPath property under `HKEY_CURRENT_USER\software\microsoft\Windows\CurrentVersion\explorer\Advanced`.
 
     `Set-ItemProperty -Path HKCU:\software\microsoft\Windows\CurrentVersion\Explorer\Advanced -PSProperty DontPrettyPath -Value 1`
 
@@ -29,10 +29,15 @@
 
 6. What is the difference between the `-Filter`, `-Include` and `-Exclude` parameters of `Get-ChildItem`?
 
+
     `Get-Help Get-ChildItem -Parameter Filter`
+
     `Get-Help Get-ChildItem -Parameter Include`
+
     `Get-Help Get-ChildItem -Parameter Exclude`
 
 `-Filter` specifies a filter to qualify the Path parameter.
+
 `-Include` specifies, as a string array, an item or items that this cmdlet includes in the operation.
+
 `-Exclude` specifies, as a string array, a property or property that this cmdlet excludes from the operation.
